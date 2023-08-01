@@ -16,7 +16,6 @@ public class Main {
         double greatest = 0;
         double average = 0;
         double smallest = 0;
-        //todo дописать логику программы ниже.
 //        if (first > second && first > third) {
 //            greatest = first;
 //        } else if (second > first && second > third) {
