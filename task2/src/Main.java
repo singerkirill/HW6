@@ -33,7 +33,7 @@ public class Main {
         }
         if ((first > second && first < third) || (first < second && first > third)) {
             average = first;
-        } else if ((second > first && second < third) || (second < first && second > first)) {
+        } else if ((second > first && second < third) || (second < first && second > third)) {
             average = second;
         } else if ((third > first && third < second) || (third < first && third > second)) {
             average = third;
@@ -44,6 +44,6 @@ public class Main {
         System.out.println("Наибольший вес: " + greatest);
         System.out.println("Средний вес: " + average);
         System.out.println("Наименьший вес: " + smallest);
+    }
 
     }
-}
