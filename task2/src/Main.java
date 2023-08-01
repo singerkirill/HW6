@@ -38,7 +38,6 @@ public class Main {
         } else if ((third > first && third < second) || (third < first && third > second)) {
             average = third;
         }
-//        //todo
 //
 //
         System.out.println("Наибольший вес: " + greatest);
